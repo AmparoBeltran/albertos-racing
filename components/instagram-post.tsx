@@ -10,7 +10,7 @@ interface InstagramPostProps {
 
 export default function InstagramPost({ id, url, caption, date }: InstagramPostProps) {
   return (
-    <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 border border-gray-200">
+    <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 border border-gray-200" id={`instagram-post-${id}`}>
       <div className="p-4 border-b flex items-center gap-3">
         <div className="relative h-10 w-10 rounded-full overflow-hidden">
           <Image src="/images/instagram/profile/placeholder-50x50.svg" alt="Alberto Beltrán García" fill className="object-cover" />
@@ -37,6 +37,7 @@ export default function InstagramPost({ id, url, caption, date }: InstagramPostP
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 text-sm font-medium text-pink-600 hover:text-pink-700"
+          aria-describedby={`instagram-post-${id}`}
         >
           <Instagram className="h-4 w-4" />
           See on Instagram

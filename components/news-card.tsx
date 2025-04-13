@@ -19,7 +19,7 @@ export default function NewsCard({ title, date, excerpt, imageUrl, slug, categor
     <Card className="overflow-hidden hover:shadow-lg transition-all duration-300 hover:-translate-y-1 border-0 shadow-md pt-0">
       <div className="relative h-48 w-full">
         <Image
-          src="/images/news/articles/placeholder-400x600.svg"
+          src={imageUrl ?? "/images/news/articles/placeholder-400x600.svg"}
           alt={title}
           fill
           className="object-cover"

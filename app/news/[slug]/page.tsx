@@ -2,18 +2,14 @@ import Image from "next/image"
 import Link from "next/link"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { CalendarIcon, User, ChevronLeft, ChevronRight, Share2, Facebook, Twitter, Linkedin } from "lucide-react"
+import { CalendarIcon, User, ChevronLeft, ChevronRight, Share2, Facebook, Linkedin } from "lucide-react"
 import NewsCard from "@/components/news-card"
 
 interface NewsArticlePageProps {
-  params: {
-    slug: string
-  }
+  params: Promise<{ slug: string }>
 }
 
-export default function NewsArticlePage({ params }: NewsArticlePageProps) {
-  // In a real application, you would fetch the article data based on the slug
-  // For this example, we'll use hardcoded data
+export default function NewsArticlePage({ /* params */ }: NewsArticlePageProps) {
   const article = {
     title: "Alberto Achieves Fastest Lap at R3 bLU cRU Challenge Final in Estoril",
     date: "October 15, 2024",

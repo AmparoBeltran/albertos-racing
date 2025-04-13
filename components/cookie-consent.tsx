@@ -34,6 +34,7 @@ export default function CookieConsent() {
         setCookieSettings(savedSettings)
       } catch (e) {
         // If there's an error parsing the cookie, show the banner again
+        console.error("Error parsing cookie consent:", e)
         setShowBanner(true)
       }
     }

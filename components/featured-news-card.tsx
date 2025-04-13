@@ -27,11 +27,11 @@ export default function FeaturedNewsCard({
     <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div className="relative h-64 md:h-full w-full">
-          <Image 
-            src="/images/news/featured/placeholder-600x1200.svg" 
-            alt={title} 
-            fill 
-            className="object-cover" 
+          <Image
+            src={imageUrl ?? "/images/news/featured/placeholder-600x1200.svg"}
+            alt={title}
+            fill
+            className="object-cover"
           />
           <div className="absolute top-4 left-4">
             <Badge className="bg-red-600 hover:bg-red-700">{category}</Badge>
