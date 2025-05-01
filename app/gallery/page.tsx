@@ -1,8 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
-import { ChevronLeft, Download } from "lucide-react"
+import { ChevronLeft } from "lucide-react"
 
 export default function GalleryPage() {
     // Sample gallery data - in a real app, this would come from an API or CMS
@@ -171,7 +170,7 @@ export default function GalleryPage() {
             {/* Gallery Content */}
             <section className="py-16 px-4 md:px-6 bg-white">
                 <div className="container mx-auto max-w-6xl">
-                    {galleryCategories.map((category, index) => (
+                    {galleryCategories.map((category) => (
                         <div key={category.name} className="mb-20">
                             <div className="flex items-center justify-between mb-8">
                                 <div>
