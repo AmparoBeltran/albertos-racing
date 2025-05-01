@@ -109,7 +109,7 @@ export default function NewsPage() {
       <section className="relative h-[40vh] min-h-[300px] w-full overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/alberto-hero.png"
+            src="/images/news/articles/nacional-yamaha-r3-cup-podio-hero.jpg"
             alt="Latest News"
             fill
             priority
