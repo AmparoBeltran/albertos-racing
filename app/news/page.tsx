@@ -15,7 +15,7 @@ export default function NewsPage() {
     date: "15 October 2023",
     excerpt:
       "Despite challenging weather conditions and a fall during free practice, Alberto demonstrated exceptional skill by recording the best time in the R3 bLU cRU Challenge final at the World Superbike Championship in Estoril.",
-    imageUrl: "/images/news/featured/placeholder-600x1200.svg",
+    imageUrl: "/images/news/featured/r3-blu-cru-superfinale-fastest-lap-3-featured-news.jpg",
     slug: "best-time-r3-blu-cru-final",
     category: "Results",
     externalUrl: "https://www.levante-emv.com/costera/2023/05/25/alberto-beltran-queda-segundo-primera-87886891.html",
@@ -28,7 +28,7 @@ export default function NewsPage() {
       date: "25 May 2023",
       excerpt:
         "The Setabense rider Alberto Beltrán achieved a well-deserved second place in the first KTM Cup race held at the Jerez de la Frontera circuit.",
-      imageUrl: "/images/news/featured/placeholder-600x1200.svg",
+      imageUrl: "/images/news/featured/podio-jerez-3-featured-news.jpg",
       slug: "second-place-ktm-cup-jerez",
       category: "Competition",
       externalUrl: "https://www.levante-emv.com/costera/2023/05/25/alberto-beltran-queda-segundo-primera-87886891.html",

@@ -13,7 +13,7 @@ export default function RacesPage() {
             <section className="relative h-[50vh] min-h-[400px] w-full overflow-hidden">
                 <div className="absolute inset-0 z-0">
                     <Image
-                        src="/images/alberto-hero.png"
+                        src="/images/races/gallery/nacional-yamaha-r3-cup-5.jpeg"
                         alt="Racing Events"
                         fill
                         priority
@@ -68,7 +68,7 @@ export default function RacesPage() {
                                             <CircuitTrack circuit="ricardo-tormo" className="text-red-600" />
                                         </div>
                                         <div className="w-full md:w-1/2">
-                                            <h3 className="text-xl font-bold mb-3">Circuit Ricardo Tormo</h3>
+                                            <h3 className="text-xl font-bold mb-3">Ricardo Tormo</h3>
                                             <p className="text-gray-600 mb-4">Valencia, Spain</p>
                                             <div className="space-y-3">
                                                 <div className="flex items-center gap-2">
@@ -95,7 +95,7 @@ export default function RacesPage() {
                                             <CircuitTrack circuit="jerez" className="text-red-600" />
                                         </div>
                                         <div className="w-full md:w-1/2">
-                                            <h3 className="text-xl font-bold mb-3">Circuit de Jerez</h3>
+                                            <h3 className="text-xl font-bold mb-3">Jerez</h3>
                                             <p className="text-gray-600 mb-4">Jerez de la Frontera, Spain</p>
                                             <div className="space-y-3">
                                                 <div className="flex items-center gap-2">
@@ -122,7 +122,7 @@ export default function RacesPage() {
                                             <CircuitTrack circuit="cartagena" className="text-red-600" />
                                         </div>
                                         <div className="w-full md:w-1/2">
-                                            <h3 className="text-xl font-bold mb-3">Circuito de Cartagena</h3>
+                                            <h3 className="text-xl font-bold mb-3">Cartagena</h3>
                                             <p className="text-gray-600 mb-4">Murcia, Spain</p>
                                             <div className="space-y-3">
                                                 <div className="flex items-center gap-2">
@@ -149,7 +149,7 @@ export default function RacesPage() {
                                             <CircuitTrack circuit="alcarras" className="text-red-600" />
                                         </div>
                                         <div className="w-full md:w-1/2">
-                                            <h3 className="text-xl font-bold mb-3">Circuit d'Alcarràs</h3>
+                                            <h3 className="text-xl font-bold mb-3">Alcarras</h3>
                                             <p className="text-gray-600 mb-4">Lleida, Spain</p>
                                             <div className="space-y-3">
                                                 <div className="flex items-center gap-2">
@@ -179,7 +179,7 @@ export default function RacesPage() {
                                             <div className="flex items-center gap-2 mb-2">
                                                 <Badge className="bg-yellow-500 hover:bg-yellow-600">Superfinal</Badge>
                                             </div>
-                                            <h3 className="text-xl font-bold mb-3">Circuito Estoril</h3>
+                                            <h3 className="text-xl font-bold mb-3">Estoril</h3>
                                             <p className="text-gray-600 mb-4">Estoril, Portugal</p>
                                             <div className="space-y-3">
                                                 <div className="flex items-center gap-2">
@@ -237,7 +237,7 @@ export default function RacesPage() {
                                             <CircuitTrack circuit="ricardo-tormo" className="text-red-600" />
                                         </div>
                                         <div className="w-full md:w-1/2">
-                                            <h3 className="text-xl font-bold mb-3">Circuit Ricardo Tormo (Cheste)</h3>
+                                            <h3 className="text-xl font-bold mb-3">Ricardo Tormo (Cheste)</h3>
                                             <p className="text-gray-600 mb-4">Valencia, Spain</p>
                                             <div className="space-y-3">
                                                 <div className="flex items-center gap-2">
@@ -269,7 +269,7 @@ export default function RacesPage() {
                                             <div className="flex items-center gap-2 mb-2">
                                                 <Badge className="bg-yellow-500 hover:bg-yellow-600">2nd Place</Badge>
                                             </div>
-                                            <h3 className="text-xl font-bold mb-3">Circuit de Jerez</h3>
+                                            <h3 className="text-xl font-bold mb-3">Jerez</h3>
                                             <p className="text-gray-600 mb-4">Jerez de la Frontera, Spain</p>
                                             <div className="space-y-3">
                                                 <div className="flex items-center gap-2">
@@ -305,7 +305,7 @@ export default function RacesPage() {
                                             <div className="flex items-center gap-2 mb-2">
                                                 <Badge className="bg-blue-500 hover:bg-blue-600">4th Place</Badge>
                                             </div>
-                                            <h3 className="text-xl font-bold mb-3">Circuit Pau Arnos</h3>
+                                            <h3 className="text-xl font-bold mb-3">Pau Arnos</h3>
                                             <p className="text-gray-600 mb-4">Pau, France</p>
                                             <div className="space-y-3">
                                                 <div className="flex items-center gap-2">
@@ -341,7 +341,7 @@ export default function RacesPage() {
                                             <div className="flex items-center gap-2 mb-2">
                                                 <Badge className="bg-yellow-500 hover:bg-yellow-600">2nd Place</Badge>
                                             </div>
-                                            <h3 className="text-xl font-bold mb-3">Circuito de Navarra</h3>
+                                            <h3 className="text-xl font-bold mb-3">Navarra</h3>
                                             <p className="text-gray-600 mb-4">Los Arcos, Spain</p>
                                             <div className="space-y-3">
                                                 <div className="flex items-center gap-2">
@@ -377,7 +377,7 @@ export default function RacesPage() {
                                             <div className="flex items-center gap-2 mb-2">
                                                 <Badge className="bg-blue-500 hover:bg-blue-600">4th Place</Badge>
                                             </div>
-                                            <h3 className="text-xl font-bold mb-3">Circuito de Cartagena</h3>
+                                            <h3 className="text-xl font-bold mb-3">Cartagena</h3>
                                             <p className="text-gray-600 mb-4">Murcia, Spain</p>
                                             <div className="space-y-3">
                                                 <div className="flex items-center gap-2">
@@ -440,27 +440,66 @@ export default function RacesPage() {
                     </div>
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                        {[1, 2, 3, 4, 5, 6].map((item) => (
+                        {[
+                            {
+                                src: "/images/races/gallery/nacional-yamaha-r3-cup-5.jpeg",
+                                alt: "Nacional Yamaha R3 Cup Race",
+                                title: "Nacional Yamaha R3 Cup",
+                                date: "2024 Season"
+                            },
+                            {
+                                src: "/images/races/gallery/r3-blu-cru-superfinale-fastest-lap-3.jpeg",
+                                alt: "R3 bLU cRU Superfinale",
+                                title: "R3 bLU cRU Superfinale",
+                                date: "2024 Season"
+                            },
+                            {
+                                src: "/images/races/gallery/nacional-yamaha-r3-cup-podio.jpeg",
+                                alt: "Nacional Yamaha R3 Cup Podium",
+                                title: "Podium Celebration",
+                                date: "2024 Season"
+                            },
+                            {
+                                src: "/images/races/gallery/nacional-yamaha-r3-cup-2.jpeg",
+                                alt: "Nacional Yamaha R3 Cup Race",
+                                title: "Race Start",
+                                date: "2024 Season"
+                            },
+                            {
+                                src: "/images/races/gallery/r3-blu-cru-superfinale-fastest-lap.jpeg",
+                                alt: "R3 bLU cRU Superfinale",
+                                title: "Fastest Lap",
+                                date: "2024 Season"
+                            },
+                            {
+                                src: "/images/races/gallery/podio-jerez-.jpeg",
+                                alt: "Jerez Podium Celebration",
+                                title: "Jerez Podium",
+                                date: "2024 Season"
+                            }
+                        ].map((item, index) => (
                             <div
-                                key={item}
+                                key={index}
                                 className="relative h-64 rounded-xl overflow-hidden group cursor-pointer hover:shadow-xl transition-all duration-300"
                             >
                                 <Image
-                                    src={`/images/races/gallery/placeholder-400x300.svg`}
-                                    alt={`Race Photo ${item}`}
+                                    src={item.src}
+                                    alt={item.alt}
                                     fill
                                     className="object-cover transition-transform duration-500 group-hover:scale-110"
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-4">
-                                    <h3 className="text-white font-bold">Racing Moment {item}</h3>
-                                    <p className="text-white/80 text-sm">2024 Season</p>
+                                    <h3 className="text-white font-bold">{item.title}</h3>
+                                    <p className="text-white/80 text-sm">{item.date}</p>
                                 </div>
                             </div>
                         ))}
                     </div>
 
                     <div className="mt-12 text-center">
-                        <Button className="bg-red-600 hover:bg-red-700">View Full Gallery</Button>
+                        <Link href="/gallery">
+                            <Button className="bg-red-600 hover:bg-red-700">View Full Gallery</Button>
+                        </Link>
                     </div>
                 </div>
             </section>
