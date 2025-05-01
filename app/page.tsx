@@ -33,7 +33,7 @@ export default function Home() {
               icon={<Trophy className="h-8 w-8 mb-2 mx-auto text-yellow-300" />}
             />
             <CountUp
-              end={14}
+              end={5}
               suffix=""
               title="Years Racing"
               description="Started at age 10"
